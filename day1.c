@@ -1,27 +1,27 @@
-//ÒıÈëÍ·º¯Êı£¨°üº¬¾ø´ó¶àÊıÊ¹ÓÃµÄº¯Êı£©
+//å¼•å…¥å¤´å‡½æ•°ï¼ˆåŒ…å«ç»å¤§å¤šæ•°ä½¿ç”¨çš„å‡½æ•°ï¼‰
 #include <stdio.h>
-//Ö÷º¯Êı£¨Ò»¸ö.cÖĞÖ»ÄÜÓĞÒ»¸ö£©
+//ä¸»å‡½æ•°ï¼ˆä¸€ä¸ª.cä¸­åªèƒ½æœ‰ä¸€ä¸ªï¼‰
 int main()
 {
-	printf("hello world\n");//´òÓ¡
+	printf("hello world\n");//æ‰“å°
 	char ch = 'a';
 
-	//×Ö·ûÊı¾İÀàĞÍ
+	//å­—ç¬¦æ•°æ®ç±»å‹
 	printf("%d\n", sizeof(char));
-	//ÕûĞÎ
+	//æ•´å½¢
 	printf("%d\n", sizeof(int));
-	//¶ÌÕûĞÍ
+	//çŸ­æ•´å‹
 	printf("%d\n", sizeof(short));
-	//³¤ÕûĞÍ
+	//é•¿æ•´å‹
 	printf("%d\n", sizeof(long));
-	//¸ü³¤µÄÕûĞÎ
+	//æ›´é•¿çš„æ•´å½¢
 	printf("%d\n", sizeof(long long));
-	//µ¥¾«¶È¸¡µãÊı
+	//å•ç²¾åº¦æµ®ç‚¹æ•°
 	printf("%d\n", sizeof(float));
-	//Ë«¾«¶È¸¡µãÊı
+	//åŒç²¾åº¦æµ®ç‚¹æ•°
 	printf("%d\n", sizeof(double));
 
-    //±äÁ¿
+    //å˜é‡
 	int age = 18;
 	double weight = 54.3;
 	age = age + 1;
