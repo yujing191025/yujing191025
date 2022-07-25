@@ -9,27 +9,27 @@ int add(int x, int y)
 int main()
 {
 	int coding = 0;
-	printf("Äã»áºÃºÃÑ§Ï°ÇÃ´úÂëÂğ£¨1or0£©");
+	printf("ä½ ä¼šå¥½å¥½å­¦ä¹ æ•²ä»£ç å—ï¼ˆ1or0ï¼‰");
 	scanf("%d", &coding);
 	if (coding = 1)
 	{
-		printf("¼á³ÖÏÂÈ¥£¬Äã»á×ßÉÏÈËÉúáÛ·å");
+		printf("åšæŒä¸‹å»ï¼Œä½ ä¼šèµ°ä¸Šäººç”Ÿå·…å³°");
 	}
 	else
 	{
-		printf("»Ø¼ÒÂôºìÊí");
+		printf("å›å®¶å–çº¢è–¯");
 	}
 	
 
 	int line = 0;
 	while (line < 3000);
 	{
-		printf("Ğ´´úÂë£º%d\n", line);
+		printf("å†™ä»£ç ï¼š%d\n", line);
 		line++;
 	}
 	if (line == 3000)
 	{
-		printf("×ßÏòÈËÉúáÛ·å");
+		printf("èµ°å‘äººç”Ÿå·…å³°");
 	}
 	int num1 = 0;
 	int num2 = 0;
